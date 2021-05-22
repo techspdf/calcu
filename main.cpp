@@ -2,22 +2,25 @@
 using namespace std;
 int main()
 {
-cout<< "\n welcome to the math calculator"<<endl;
-cout<<"\ 1 add"<<endl;
-cout<<"\ 2 sub"<<endl;
-cout<<"\ 3 divs"<<endl;
-cout<<"\ 4 multi"<<endl;
+cout<<" welcome to the math calculator"<<endl;
+cout<<" ------------------------------"<<endl;
+cout<<" 1 sum"<<endl;
+cout<<" 2 sub"<<endl;
+cout<<" 3 divs"<<endl;
+cout<<" 4 multi"<<endl;
+    
+    float num1,num2;
+    float sum,sub,multi,divs;
+    int request;
+    
 
 cout<<"Enter your required function"<<endl;
-    cin>>request; 
-    int request;
-    int num1,num2;
-    int sum,sub,divs,multi;
+    cin>>request;
     
 
 switch(request){
 case 1:
-cout<<"\n you have choosen add function"<<endl;
+cout<<" you have choosen sum function"<<endl;
 cout<<"enter first number"  ;
 cin>>num1;
 cout<<"enter second number";
@@ -28,7 +31,7 @@ cin>>num2;
     break;
 
 case 2:
-cout<<"\n you hace choosen sub function"<<endl;
+cout<<" you have choosen sub function"<<endl;
 cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
@@ -39,7 +42,7 @@ cin>>num2;
     break;
 
 case 3:
-cout<<"\n you have choosen multi function"<<endl;
+cout<<" you have choosen multi function"<<endl;
 cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
@@ -50,7 +53,7 @@ cin>>num2;
     break;
 
 case 4:
-cout<<"\n you have choosen divs function"<<endl;
+cout<<" you have choosen divs function"<<endl;
 cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
