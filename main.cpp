@@ -12,7 +12,7 @@ cout<<"Enter your required function"<<endl;
     cin>>request; 
     int request;
     int num1,num2;
-    int add,sub,divs,multi;
+    int sum,sub,divs,multi;
     
 
 switch(request){
