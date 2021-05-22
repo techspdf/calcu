@@ -3,15 +3,17 @@ using namespace std;
 int main()
 {
 cout<< "\n welcome to the math calculator"<<endl;
-cout<<"add"<<endl;
-cout<<"sub"<<endl;
-cout<<"div"<<endl;
-cout<<"multi"<<endl;
+cout<<"\ 1 add"<<endl;
+cout<<"\ 2 sub"<<endl;
+cout<<"\ 3 div"<<endl;
+cout<<"\ 4 multi"<<endl;
 
 cout<<"Enter your required function"<<endl;
-int request;
-int num1,num2;
-cin>>request;
+    cin>>request; 
+    int request;
+    int num1,num2;
+    int add,sub,div,multi;
+    
 
 switch(request){
 case 1:
@@ -20,7 +22,9 @@ cout<<"enter first number"  ;
 cin>>num1;
 cout<<"enter second number";
 cin>>num2;
-cout<<num1<<"+"<<num2<<"is"<<add(num1,num2)<<endl;
+        sum =num1+num2;
+        cout<<"sum of both numbet is "<<sum<<endl;
+
     break;
 
 case 2:
@@ -29,7 +33,9 @@ cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
 cin>>num2;
-cout<<num1<<"+"<<num2<<"is"<<sub(num1,num2)<<endl;
+        sub =num1-num2;
+        cout<<"sub of both number is "<<sub<<endl;
+
     break;
 
 case 3:
@@ -38,7 +44,9 @@ cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
 cin>>num2;
-cout<<num1<<"+"<<num2<<"is"<<multi(num1,num2)<<endl;
+        multi =num1*num2;
+        cout<<"multi of both number is "<<multi<<endl;
+
     break;
 
 case 4:
@@ -47,11 +55,15 @@ cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
 cin>>num2;
-cout<<num1<<"+"<<num2<<"is"<<div(num1,num2)<<endl;
+        div =num1/num2;
+        cout<<"div of both number is "<<div<<endl;
+
     break;
 
 default :
-cout<<"invalid option"<<endl;
+cout<<"invalid option please enter the number between (1-4)"<<endl;
+        break;
+        
 }
 return 0;
 }
