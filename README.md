@@ -46,7 +46,7 @@ Enterface of the calculator
 ---------------------------
 
 
-welcome  to calculation world  calculator
+welcome  to mathematics  calculator
 1. Sum
 2. sub
 3. multi
