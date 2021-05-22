@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 cout<< "\n welcome to the math calculator"<<endl;
-cou<<"add"<<endl;
+cout<<"add"<<endl;
 cout<<"sub"<<endl;
 cout<<"div"<<endl;
 cout<<"multi"<<endl;
