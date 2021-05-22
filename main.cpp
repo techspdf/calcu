@@ -1,5 +1,5 @@
 #include<iostream>
-using namespcae std;
+using namespace std;
 int main()
 {
 cout<< "\n welcome to the math calculator"<<endl;
