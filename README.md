@@ -1,2 +1,5 @@
-# calcu
-this is my first repository 
+About 
+------
+
+This is simple calculator it is  created by techspdf
+
