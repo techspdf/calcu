@@ -42,7 +42,7 @@ case 4:
 cout<<"\n you have choosen div function"<<endl;
 cout<<"enter first number";
 cin>>num1;
-cout<<enter second number";
+cout<<"enter second number";
 cin>>num2;
 cout<<num1<<"+"<<num2<<"is"<<div(num1,num2)<<endl;
 
