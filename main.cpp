@@ -5,14 +5,14 @@ int main()
 cout<< "\n welcome to the math calculator"<<endl;
 cout<<"\ 1 add"<<endl;
 cout<<"\ 2 sub"<<endl;
-cout<<"\ 3 div"<<endl;
+cout<<"\ 3 divs"<<endl;
 cout<<"\ 4 multi"<<endl;
 
 cout<<"Enter your required function"<<endl;
     cin>>request; 
     int request;
     int num1,num2;
-    int add,sub,div,multi;
+    int add,sub,divs,multi;
     
 
 switch(request){
@@ -50,13 +50,13 @@ cin>>num2;
     break;
 
 case 4:
-cout<<"\n you have choosen div function"<<endl;
+cout<<"\n you have choosen divs function"<<endl;
 cout<<"enter first number";
 cin>>num1;
 cout<<"enter second number";
 cin>>num2;
-        div =num1/num2;
-        cout<<"div of both number is "<<div<<endl;
+        divs =num1/num2;
+        cout<<"divs of both number is "<<divs<<endl;
 
     break;
 
