@@ -21,6 +21,7 @@ cin>>num1;
 cout<<"enter second number";
 cin>>num2;
 cout<<num1<<"+"<<num2<<"is"<<add(num1,num2)<<endl;
+    break;
 
 case 2:
 cout<<"\n you hace choosen sub function"<<endl;
@@ -29,6 +30,7 @@ cin>>num1;
 cout<<"enter second number";
 cin>>num2;
 cout<<num1<<"+"<<num2<<"is"<<sub(num1,num2)<<endl;
+    break;
 
 case 3:
 cout<<"\n you have choosen multi function"<<endl;
@@ -37,6 +39,7 @@ cin>>num1;
 cout<<"enter second number";
 cin>>num2;
 cout<<num1<<"+"<<num2<<"is"<<multi(num1,num2)<<endl;
+    break;
 
 case 4:
 cout<<"\n you have choosen div function"<<endl;
@@ -45,6 +48,7 @@ cin>>num1;
 cout<<"enter second number";
 cin>>num2;
 cout<<num1<<"+"<<num2<<"is"<<div(num1,num2)<<endl;
+    break;
 
 default :
 cout<<"invalid option"<<endl;
