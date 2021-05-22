@@ -14,7 +14,7 @@ welcome  to calculation world  calculator
 3. multi
 4. divs
 
-please enter any option which you want do do 
+please enter any option which you want to do 
 
 enter first number  :
 enter second number :
