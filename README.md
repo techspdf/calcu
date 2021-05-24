@@ -14,7 +14,7 @@ pkg install git
 
 after then
 
-git clobe https://github.com/techspdf/calcu.git
+git clone https://github.com/techspdf/calcu.git
 
 after cloning process
 you will see
